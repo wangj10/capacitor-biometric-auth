@@ -117,6 +117,10 @@
     "url": "https://github.com/aparajita/capacitor-biometric-auth/issues"
   },
   "devDependencies": {
+    "@capacitor/android": "^8.0.2",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/core": "^8.0.2",
+    "@capacitor/ios": "^8.0.2",
     "@aparajita/prettier-config": "^2.0.0",
     "@aparajita/swiftly": "^2.0.0",
     "@capacitor/cli": "^8.0.2",
@@ -147,11 +151,11 @@
     "typescript": "~5.9.3",
     "vue-tsc": "~3.2.4"
   },
-  "dependencies": {
-    "@capacitor/android": "^8.0.2",
-    "@capacitor/app": "^8.0.0",
-    "@capacitor/core": "^8.0.2",
-    "@capacitor/ios": "^8.0.2"
+  "peerDependencies": {
+    "@capacitor/android": ">=8.0.2",
+    "@capacitor/app": ">=8.0.0",
+    "@capacitor/core": ">=8.0.2",
+    "@capacitor/ios": ">=8.0.2"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
